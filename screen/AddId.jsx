@@ -1,8 +1,8 @@
 import { Button, View } from 'react-native';
 import { useDispatch } from 'react-redux';
-import { addIds } from '../store/redux/data';
+import { addIds } from '../store/data';
 
-export default function Form() {
+export default function AddId() {
 
   const dispatch = useDispatch();
 

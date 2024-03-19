@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View, Pressable} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
-import {removeIds} from '../store/redux/data';
+import {removeIds} from '../store/data';
 
 export default function Home() {
     const myId = useSelector(state => state.data.ids);

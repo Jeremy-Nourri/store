@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 import {Provider} from 'react-redux';
-import {store} from './store/redux/store';
+import {store} from './store/store';
 import Home from './screen/Home';
 import AddId from './screen/AddId';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
